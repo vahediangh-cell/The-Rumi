@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rumi Hostel – Stay & Volunteer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #050816;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    a { color: #f5a623; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      padding: 16px 22px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      background: rgba(5,8,22,0.96);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .wrap {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand-title {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .brand-sub {
+      font-size: 12px;
+      color: #a0a3b1;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      border: 1px solid rgba(245,166,35,0.7);
+      color: #f5a623;
+    }
+    .btn.primary {
+      background: linear-gradient(135deg, #f5a623, #ff6b3d);
+      border-color: transparent;
+      color: #1b0c01;
+      font-weight: 600;
+    }
+    main {
+      padding: 22px;
+    }
+    section {
+      margin: 40px 0;
+    }
+    h1, h2, h3 {
+      margin: 0 0 8px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 4px;
+    }
+    .muted {
+      color: #a0a3b1;
+      font-size: 14px;
+    }
+    .hero-actions {
+      margin: 14px 0 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tagline {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #a0a3b1;
+    }
+    .pill {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.08);
+      font-size: 11px;
+      color: #a0a3b1;
+      margin: 2px 6px 2px 0;
+    }
+    ul {
+      padding-left: 18px;
+      margin-top: 4px;
+      font-size: 14px;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 22px;
+    }
+    .box {
+      border-radius: 14px;
+      padding: 14px;
+      background: #13152a;
+      border: 1px solid rgba(255,255,255,0.08);
+      font-size: 14px;
+    }
+    .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #a0a3b1;
+      margin-bottom: 2px;
+    }
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 12px 22px 24px;
+      font-size: 11px;
+      color: #888ba0;
+      text-align: center;
+    }
+    @media (max-width: 700px) {
+      .two-col { grid-template-columns: minmax(0, 1fr); }
+      h1 { font-size: 24px; }
+      main { padding: 16px; }
+      header { padding: 12px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">
+      <div>
+        <div class="brand-title">Rumi Hostel</div>
+        <div class="brand-sub">Small hostel • Big soul</div>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <a href="#contact" class="btn">Contact</a>
+        <a href="#volunteers" class="btn primary">Volunteer</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- HERO -->
+    <section id="top">
+      <h1>A cozy hostel for travelers & volunteers</h1>
+      <p class="muted">
+        Rumi Hostel is a small, community-focused space. Clean beds,
+        relaxed atmosphere, and real human connection – not a party hostel,
+        more like a home.
+      </p>
+      <div class="hero-actions">
+        <a href="https://hotels.cloudbeds.com/en/reservation/TeLfcu?currency=USD&utm_source=google&utm_medium=fbl&utm_campaign=cloudbeds&utm_term=3522762-gh3-92#checkin=2025-11-25&checkout=2025-11-26&origin=gha&gha_payment_id=cpc&rid=214739&gha_user_country=AR&gha_user_device=mobile&gha_user_currency=USD&gha_user_language=en&rpid=default&gha_advance_booking_window=2&gha_google_site=mapresults&gha_length=1&gha_price_displayed_total=50.38&gha_is_ad_click=0&gha_is_click_type_hotel=1&gha_is_click_type_room=0&gha_is_hotel_campaign=1&gha_is_promoted=0&adults=2&kids=0" class="btn primary" target="_blank" rel="noopener noreferrer">Book a bed</a>
+        <a href="#volunteers" class="btn">Apply as volunteer</a>
+      </div>
+      <p class="tagline">
+        English & Spanish spoken • Fast replies on WhatsApp
+      </p>
+      <div style="margin-top:10px;">
+        <span class="pill">🛏️ Boutique hostel</span>
+        <span class="pill">🤝 Reception & housekeeping roles</span>
+        <span class="pill">🌍 International guests</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Rumi Hostel</h2>
+      <p>
+        We are a small hostel with a family feeling. Guests stay for a few
+        days or a few weeks, working, dancing, studying, or exploring Los Angeles.
+      </p>
+      <p>
+        We care about three things: a clean and comfortable space, respectful
+        people, and warm conversation around the kitchen table.
+      </p>
+    </section>
+
+    <!-- ROOMS -->
+    <section id="rooms">
+      <h2>Rooms & amenities</h2>
+      <div class="two-col">
+        <div class="box">
+          <span class="label">For guests</span>
+          <ul>
+            <li>Shared dorms with individual beds.</li>
+            <li>Private rooms (when available).</li>
+            <li>Fresh linens, good Wi-Fi, and common area.</li>
+            <li>Shared kitchen to cook your own meals.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <span class="label">Atmosphere</span>
+          <ul>
+            <li>Not a party hostel – calm, social, respectful.</li>
+            <li>Guests from different countries and ages.</li>
+            <li>Good for remote workers, dancers, and slow travelers.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- VOLUNTEERS -->
+    <section id="volunteers">
+      <h2>Volunteers – reception & housekeeping</h2>
+      <p class="muted">
+        We sometimes host volunteers in exchange for a bed and being part of
+        the house. We are looking mainly for:
+      </p>
+
+      <div class="two-col" style="margin-top:12px;">
+        <div class="box">
+          <h3>Reception volunteer</h3>
+          <ul>
+            <li>Welcome guests, check-in / check-out.</li>
+            <li>Answer questions and messages.</li>
+            <li>Share basic tips about Koreatown & Los Angeles.</li>
+          </ul>
+          <p class="muted" style="font-size:13px;">
+            Good English required. Basic Spanish or Korean is a plus.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Housekeeping volunteer</h3>
+          <ul>
+            <li>Make beds and change linens.</li>
+            <li>Clean bathrooms and common areas.</li>
+            <li>Help with laundry and organization.</li>
+          </ul>
+          <p class="muted" style="font-size:13px;">
+            Perfect if you like practical work and order.
+          </p>
+        </div>
+      </div>
+
+      <div class="box" style="margin-top:16px;">
+        <span class="label">Conditions (example)</span>
+        <ul>
+          <li>~20–25 hours per week, 4–5 days.</li>
+          <li>Bed in shared staff/volunteer room.</li>
+          <li>Use of kitchen and common areas.</li>
+          <li>Minimum stay: 3–4 weeks.</li>
+        </ul>
+        <p style="font-size:13px;" class="muted">
+          To apply: send us a short message with who you are, which role you
+          prefer, dates you’re available, and languages you speak.
+        </p>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="location">
+      <h2>Location</h2>
+      <div class="two-col">
+        <div>
+          <p>
+            <strong>Address:</strong><br/>
+            Rumi Hostel<br/>
+            820 S Oxford Ave<br/>
+            Koreatown<br/>
+            Los Angeles, CA 90005
+          </p>
+        </div>
+        <div>
+          <p>
+            <strong>Google Maps:</strong><br/>
+            <a href="https://maps.google.com/?q=820+S+Oxford+Ave+Los+Angeles+CA+90005" target="_blank">
+              Open Rumi Hostel on Google Maps
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact & booking</h2>
+      <div class="two-col">
+        <div class="box">
+          <span class="label">Book a bed</span>
+          <p>
+            🌐 Booking / OTA link:<br/>
+            <a href="https://hotels.cloudbeds.com/en/reservation/TeLfcu?currency=USD&utm_source=google&utm_medium=fbl&utm_campaign=cloudbeds&utm_term=3522762-gh3-92#checkin=2025-11-25&checkout=2025-11-26&origin=gha&gha_payment_id=cpc&rid=214739&gha_user_country=AR&gha_user_device=mobile&gha_user_currency=USD&gha_user_language=en&rpid=default&gha_advance_booking_window=2&gha_google_site=mapresults&gha_length=1&gha_price_displayed_total=50.38&gha_is_ad_click=0&gha_is_click_type_hotel=1&gha_is_click_type_room=0&gha_is_hotel_campaign=1&gha_is_promoted=0&adults=2&kids=0" target="_blank" rel="noopener noreferrer">
+              Book Rumi Hostel here
+            </a>
+          </p>
+        </div>
+        <div class="box">
+          <span class="label">Direct contact</span>
+          <p>
+            📧 Email:
+            <a href="mailto:therumihostel@gmail.com">therumihostel@gmail.com</a><br/>
+            📱 WhatsApp:
+            <a href="https://wa.me/14243948721" target="_blank">
+              +1 (424) 394-8721
+            </a><br/>
+            Instagram:
+            <a href="https://instagram.com/the.rumi.hostel" target="_blank">
+              @the.rumi.hostel
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Rumi Hostel
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
